@@ -115,3 +115,12 @@ this.option.title[0].textStyle.fontSize = this.fontSize(0.24);
     },
   )
 ```
+
+销毁实例
+```js
+echarts.init(lines.value).dispose();
+echarts.dispose(lines.value);
+if (myChart != null && myChart != "" && myChart != undefined) {
+  myChart.dispose();
+}
+```
