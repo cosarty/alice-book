@@ -3,13 +3,16 @@
 layout: home
 
 hero:
-  name: 'Alice-Book'
+  name: '三月江南'
   text: '🫅自用'
   tagline: ✨记录文章
   actions:
     - theme: brand
       text: 开始
       link: /docs/tools/functions
+    - theme: brand
+      text: 工作文档
+      link: /docs/tools/work
     - theme: alt
       text: Github
       link: https://github.com/cosarty/alice-book
